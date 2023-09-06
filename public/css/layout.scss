@@ -1,0 +1,125 @@
+.bg-mynav {
+    background-color: #2c3e50;
+  }
+  
+  body {
+    font-size: 1.25rem;
+    background-color: #f6f8fa;
+  }
+  
+  td {
+      line-height: 3rem;
+  }
+
+ 
+
+  table{
+    width: 2000px;
+    text-align: center;
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: -webkit-fill-available;
+    background-color: #fcfcfc;
+    padding: 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    font-family: sans-serif;
+  }
+
+  .container * {
+    box-sizing: border-box;
+  }
+
+  .container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .container input {
+    margin-bottom: 15px;
+  }
+
+
+
+  .container label {
+    color: #777;
+    font-size: 0.8em;
+  }
+
+  .container input[type=checkbox] {
+    float: left;
+  }
+
+  .container input:not(:checked) + #feedback-phone {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .container #feedback-phone {
+    transition: .3s;
+  }
+
+  .container button[type=submit] {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+
+    background: #207cca;
+    background: -moz-linear-gradient(left, #207cca 0%, #9f58a3 100%);
+    background: -webkit-linear-gradient(left, #207cca 0%, #9f58a3 100%);
+    background: linear-gradient(to right, #207cca 0%, #9f58a3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#9f58a3',GradientType=1 );
+  }
+
+  form {
+    margin:10% auto 0 auto;
+    padding:30px;
+    width: auto;
+    height:auto;
+    overflow:hidden;
+    background:white;
+    border-radius:10px;
+  }
+  
+  form label {
+    font-size:14px;
+    color:darkgray;
+    cursor:pointer;
+  }
+  
+  form label,
+  form input {
+    float:left;
+    clear:both;
+  }
+  
+  form input {
+    margin:15px 0;
+    padding:15px 10px;
+    width:100%;
+    outline:none;
+    border:1px solid #bbb;
+    border-radius:20px;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+       -moz-box-sizing:border-box;
+            box-sizing:border-box;
+      -webkit-transition:0.2s ease all;
+       -moz-transition:0.2s ease all;
+        -ms-transition:0.2s ease all;
+         -o-transition:0.2s ease all;
+            transition:0.2s ease all;
+  }
+  
+  
